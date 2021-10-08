@@ -1,5 +1,5 @@
 	$('.logo img').remove()
-	$('.logo').html('<img class="logo" src="'+chrome.runtime.getURL("Assets/ElearnLogo.png")+'">')
+	$('.logo').html('<img class="logo" id="mutlogo" src="'+chrome.runtime.getURL("Assets/ElearnLogo.png")+'">')
 	$('.logo img').width(323)
 	$('.event,.event-item span .icon')
 	$('#site-footer').hide()

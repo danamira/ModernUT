@@ -18,8 +18,9 @@ body.format-site{
     height: 116px !important;
 	background: #1c2b36!important;
 }
-#site-header .header-main .logo {
-    margin-top: 10px;
+#site-header .header-main .logo#mutlogo {
+    display: block !important;
+    margin-top: 25px !important;
 }
 #header {
 	background: #0f1b24!important;
