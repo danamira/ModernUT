@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Vazir Medium FD-WOL-UI';
+    src: url('fonts/Vazir-Medium-FD-WOL-UI.eot');
+    src: url('fonts/Vazir-Medium-FD-WOL-UI.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Vazir-Medium-FD-WOL-UI.woff2') format('woff2'),
+        url('fonts/Vazir-Medium-FD-WOL-UI.woff') format('woff'),
+        url('fonts/Vazir-Medium-FD-WOL-UI.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
