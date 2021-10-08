@@ -8,7 +8,7 @@ ModernUT is a chrome extension which applies a modern-looking theme and style to
 Download the repository as a ZIP file and load it as an unpacked extension to your Chrome:
 <ol>
 	<li>You can find the ZIP source code of the extension from the code section above. Download it and extract it.</li>
-	<li>Go the Extensions settings in your Chrome-based browser.</li>
+	<li>Open Extensions settings in your Chrome-based browser.</li>
 	<li>Enable the Developer Mode.</li>
 	<li>Select `Load unpacked` from the options bar.</li>
 	<li>Select the directory in which you've extracted the code earlier.</li>
