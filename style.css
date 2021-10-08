@@ -214,10 +214,11 @@ h1.title {
 .form-in-iframe {
 	box-shadow: none !important;
 	border-radius: 4px !important;
+    border: 1px solid #e3e3e3 !important;
 	overflow: hidden !important;
 }
 body.login {
-	background: rgb(15, 27, 36) !important;
+	background: #f7f7f7 !important
 }
 .form-in-iframe .btn {
 	display: block !important;
@@ -360,6 +361,10 @@ body.login {
 }
 .form-in-iframe .title {
     font-size: 16px !important;
+    background: #fff !important;
+    color: #4a5660 !important;
+    border-bottom: 1px solid #ededed !important;
+    padding: 12px 10px !important;
 }
 .form-in-iframe .form-control {
     border: none !important;
@@ -374,4 +379,31 @@ body.login {
     border: 1px solid #ededed;
     border-radius: 5px !important;
 }
+header[role=banner] {
+    display: none !important;
+}
+.bg-photo-info {
+    display: none !important;    
+}
+.form-in-iframe ul.list-divided {
+    border-color: #ededed !important;
+}
+.form-in-iframe .logo {
+    height: 50px !important;
+    width: auto !important;
+    margin-bottom: 20px !important;
+}
+.form-in-iframe .form-control {
+    border-radius: 4px 0px 0 0 !important;
+}
+.form-in-iframe .btn:focus{
+    outline: 0 !important;
+}
+.form-in-iframe .alert-danger {
+    padding: 8px 10px !important;
+    line-height: 24px !important;
+    border: none !important;
+    border-radius: 4px !important;
+    background: #eb5d5d !important;
+    color: #fff !important;
 }

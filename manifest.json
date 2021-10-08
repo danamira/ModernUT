@@ -7,7 +7,11 @@
   "web_accessible_resources":[
     {
       "resources":["fonts/*"],
-        "matches": ["https://elearn4.ut.ac.ir/*","https://auth.ut.ac.ir:8443/*"]
+        "matches": ["https://elearn4.ut.ac.ir/*","https://elearn5.ut.ac.ir/*","https://elearn6.ut.ac.ir/*","https://auth.ut.ac.ir:8443/*"]
+    },
+    {
+      "resources":["Assets/*"],
+      "matches":["https://elearn4.ut.ac.ir/*","https://elearn5.ut.ac.ir/*","https://elearn6.ut.ac.ir/*","https://auth.ut.ac.ir:8443/*"]
     }
   ],
   "icons": { "16": "icon16.png",
