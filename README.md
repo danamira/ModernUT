@@ -7,3 +7,5 @@ ModernUT is a chrome extension which applies a modern-looking theme and style to
 <h2>How to install it?</h2>
 Download the repository as a zip file and load it as an unpacked extension to your Chrome.
 Extension works fine with most of the Chrome-based browsers such as Brave or Microsoft Edge.
+<h2>Acknowledgments</h2>
+<p>We have used `Vazir` font package making the project look better. Vazir is a free, beautiful font designed by Saber Rastikerdar, I encourage you to check their <a href="https://rastikerdar.github.io/vazir-font/">official page</a> for more information.
