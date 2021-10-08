@@ -1,4 +1,4 @@
-![ModernUT Logo]('https://raw.githubusercontent.com/devdana/ModernUT/main/icon128.png')
+![ModernUT Logo](https://raw.githubusercontent.com/devdana/ModernUT/main/icon128.png)
 #ModernUT Skin(Beta Version)
 ## What is ModernUT?
 ModernUT is a chrome extension which applies a modern-looking theme and style to the websites of Univeristy Of Tehran.
