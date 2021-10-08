@@ -1,7 +1,7 @@
 <p align="center">
 	<img src="https://raw.githubusercontent.com/devdana/ModernUT/main/icon128.png"/>
 </p>
-</br>
+</b>
 <h2>What is ModernUT?</h2>
 ModernUT is a chrome extension which applies a modern-looking theme and style to the websites of Univeristy Of Tehran.
 <h2>How to install it?</h2>
