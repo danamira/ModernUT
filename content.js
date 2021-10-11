@@ -21,3 +21,4 @@
 	$('.form-in-iframe').attr('style','border-radius:4px !important')
 	$('#login-form .btn').attr("value",'ورود به حساب کاربری')
 	$('.form-in-iframe .logo').attr('src',chrome.runtime.getURL("Assets/AuthLogo.png"))
+	
