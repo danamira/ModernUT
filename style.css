@@ -2,9 +2,9 @@
     font-family: 'Vazir';
     src: url('chrome-extension://__MSG_@@extension_id__/fonts/Vazir-Medium-FD-WOL-UI.eot');
     src: url('chrome-extension://__MSG_@@extension_id__/fonts/Vazir-Medium-FD-WOL-UI.eot?#iefix') format('embedded-opentype'),
-        url('chrome-extension://__MSG_@@extension_id__/fonts/Vazir-Medium-FD-WOL-UI.woff2') format('woff2'),
-        url('chrome-extension://__MSG_@@extension_id__/fonts/Vazir-Medium-FD-WOL-UI.woff') format('woff'),
-        url('chrome-extension://__MSG_@@extension_id__/fonts/Vazir-Medium-FD-WOL-UI.ttf') format('truetype');
+    url('chrome-extension://__MSG_@@extension_id__/fonts/Vazir-Medium-FD-WOL-UI.woff2') format('woff2'),
+    url('chrome-extension://__MSG_@@extension_id__/fonts/Vazir-Medium-FD-WOL-UI.woff') format('woff'),
+    url('chrome-extension://__MSG_@@extension_id__/fonts/Vazir-Medium-FD-WOL-UI.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -12,18 +12,18 @@
 
 
 body.format-site{
-	background: #f5f5f59e !important;
+    background: #f5f5f59e !important;
 }
 #site-header .header-main {
     height: 116px !important;
-	background: #1c2b36!important;
+    background: #1c2b36!important;
 }
 #site-header .header-main .logo#mutlogo {
     display: block !important;
     margin-top: 25px !important;
 }
 #header {
-	background: #0f1b24!important;
+    background: #0f1b24!important;
 }
 .block-region .block .card-body .card-title {
     font-size: 16px !important;
@@ -38,35 +38,35 @@ body.format-site{
     border-radius: 4px !important;
 }
 h1 {
-	font-size: 24px !important;
+    font-size: 24px !important;
 }
 #page-header button {
-	    background: #19a9d5 !important;
+    background: #19a9d5 !important;
     border: none !important;
     border-radius: 4px;
     font-size: 14px;
     border-bottom: 2px solid #1394bb!important;
 }
 #page-header .card {
-	box-shadow: none !important;
+    box-shadow: none !important;
     border: 1px solid #ededed !important;
     border-radius: 4px !important;
     padding-bottom: 15px !important;
 }
 .dashboard-card {
-	border-radius: 4px !important;
+    border-radius: 4px !important;
     /*overflow: hidden !important;*/
     border: 1px solid #ededed !important;
     margin-bottom: 10px !important;
 }
 .dashboard-card-footer .small {
-	display: none !important;
+    display: none !important;
 }
 .block .block-cards .progress {
-	border-radius: 2px !important;
+    border-radius: 2px !important;
 }
 #message-user-button {
-	background: #7266ba;
+    background: #7266ba;
     border-radius: 4px!important;
     padding: 2px 10px!important;
     color: #fff !important;
@@ -77,18 +77,18 @@ h1 {
 }
 
 #message-user-button .fa{
-	font-size: 15px !important; 
+    font-size: 15px !important; 
     line-height: 24px!important;
     float: right!important;
 }
 .dashboard-card .text-muted {
-	display: none !important;
+    display: none !important;
 }
 .sectionname {
-	font-size: 20px !important;
+    font-size: 20px !important;
 }
 td.calendar_event_course {
-	background-color: #ffc169!important;
+    background-color: #ffc169!important;
     color: #fff !important;
     border-radius: 3px!important;
     width: 27px!important;
@@ -96,10 +96,10 @@ td.calendar_event_course {
     line-height: 23px !important;
 }
 .calendarwrapper .hasevent  a {
-	color: #fff !important;
+    color: #fff !important;
 }
 .minicalendar .day {
-	height: 27px !important;
+    height: 27px !important;
 }
 .block .minicalendar td.today a {
     background: #343a40!important;;
@@ -108,7 +108,7 @@ td.calendar_event_course {
     border-radius: 2px!important;;
 }
 .gotocal a,.block_private_files .footer a {
-	color: #6a6969 !important;
+    color: #6a6969 !important;
     display: block;
     background: #fff;
     padding: 5px 0;
@@ -120,17 +120,17 @@ td.calendar_event_course {
     border-bottom: 2px solid #e3e3e
 }
 h6.event-name {
-	font-size: 17px !important;
-	margin-bottom: 7px !important;
+    font-size: 17px !important;
+    margin-bottom: 7px !important;
 }
 small.text-muted {
-	display: none !important;
+    display: none !important;
 }
 .text-truncate {
-	overflow: visible !important;
+    overflow: visible !important;
 }
 .event-name-container h6 a {
-	font-size: 15px;
+    font-size: 15px;
     padding: 3px 12px;
     border-radius: 4px;
     margin-bottom: 10px;
@@ -139,7 +139,7 @@ small.text-muted {
 }
 }
 .event-name-container .mb-0.pt-2 {
-	margin-bottom: 7px !important;
+    margin-bottom: 7px !important;
 }
 .block-region .block .card-body .card-text .dropdown button.dropdown-toggle {
     font-size: 14px !important;
@@ -148,24 +148,24 @@ small.text-muted {
     color: #41515e !important;
 }
 .navbar-nav {
-	font-size: 15px !important;
+    font-size: 15px !important;
 }
 .block .dropdown.show>.btn {
     background: #ededed !important;
 }
 #navbarResponsive {
-	display: none !important;
+    display: none !important;
 }
 .block_private_files .footer a {
-	margin: 10px auto;
+    margin: 10px auto;
 }
 .dropdown .dropdown-menu {
-	box-shadow: none !important;
-	border-radius: 2px !important;
-	border: 1px solid #ededed !important;
+    box-shadow: none !important;
+    border-radius: 2px !important;
+    border: 1px solid #ededed !important;
 }
 .dropdown .dropdown-menu a {
-	color: #454f58 !important;
+    color: #454f58 !important;
     padding: 5px 38px !important;
     padding-right: 13px !important;
     border-color:#ededed !important ;
@@ -174,11 +174,11 @@ small.text-muted {
 }
 
 .dropdown .dropdown-menu a:hover {
-	border-color:#ededed !important;
-	background: #ededed !important;
+    border-color:#ededed !important;
+    background: #ededed !important;
 }
 .aconbtnjoin input {
-	background: #23ad44!important;
+    background: #23ad44!important;
     border: none !important;
     border-bottom: 2px solid #159935 !important;
     border-radius: 4px!important;
@@ -186,59 +186,59 @@ small.text-muted {
     padding: 0 23px!important;
 }
 .aconfldset {
-	overflow: hidden;
+    overflow: hidden;
 }
 .aconfldset .aconmeetinforow{
-	width: 50% !important;
-	float: right;
+    width: 50% !important;
+    float: right;
     padding-right: 20px;
     margin-bottom: 16px;
 }
 .activity-navigation {
-	display: none !important;
+    display: none !important;
 }
 .aconmeetinforow .no-overflow {
-	display: none !important;
+    display: none !important;
 }
 #header .dropdown .dropdown-menu a:hover i, #header .dropdown .dropdown-menu a:focus i {
     color: #454f58 !important;
 }
 #completionprogressid {
-	font-size: 12px !important;
+    font-size: 12px !important;
 }
 #completionprogressid a {
-	margin-right: 8px;
+    margin-right: 8px;
 }
 h1.title {
-	/*display: none !important;*/
-	border-radius: none !important;
+    /*display: none !important;*/
+    border-radius: none !important;
 }
 .form-in-iframe .title {
-	border-radius: 4px 4px 0 0!important;
+    border-radius: 4px 4px 0 0!important;
 }
 .form-in-iframe {
-	box-shadow: none !important;
-	border-radius: 4px !important;
+    box-shadow: none !important;
+    border-radius: 4px !important;
     border: 1px solid #e3e3e3 !important;
-	overflow: hidden !important;
+    overflow: hidden !important;
 }
 body.login {
-	background: #f7f7f7 !important
+    background: #f7f7f7 !important
 }
 .form-in-iframe .btn {
-	display: block !important;
-	width: 100%!important;;
-	border-radius: 4px !important;
+    display: block !important;
+    width: 100%!important;;
+    border-radius: 4px !important;
     border: none!important;
     padding: 7px 10px!important;
     border-bottom: 2px solid #057fd1!important;
 }
 * {
-	font-family: Vazir !important;
+    font-family: Vazir !important;
     font-weight: 100;
 }
 .fa {
-	font-family: FontAwesome !important;
+    font-family: FontAwesome !important;
 }
 .logo img {
     margin: 16px 0px !important;
@@ -246,13 +246,13 @@ body.login {
     max-width: 400px !important;
 }
 .event .date {
-	font-size: 14px;
+    font-size: 14px;
     padding-right: 28px;
     margin: 4px 0;
     color: #73859f
 }
 .event .date a {
-	color: #73859f;
+    color: #73859f;
 }
 .listentry {
     overflow: hidden;
@@ -310,7 +310,7 @@ body.login {
 }
 .dutfooter .left p .fa{
     margin-left: 4px;
-     /*float: right; */
+    /*float: right; */
     font-size: 15px;
 }
 #backToTop{

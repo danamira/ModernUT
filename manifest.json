@@ -1,13 +1,13 @@
 {
   "manifest_version": 3,
- 
+  
   "name": "ModernUT",
   "version": "0.1.0",
   "description": "Make UT look better by giving a it a taste of modern UI elements..",
   "web_accessible_resources":[
     {
       "resources":["fonts/*"],
-        "matches": ["https://elearn4.ut.ac.ir/*","https://elearn5.ut.ac.ir/*","https://elearn6.ut.ac.ir/*","https://auth.ut.ac.ir:8443/*"]
+      "matches": ["https://elearn4.ut.ac.ir/*","https://elearn5.ut.ac.ir/*","https://elearn6.ut.ac.ir/*","https://auth.ut.ac.ir:8443/*"]
     },
     {
       "resources":["Assets/*"],
@@ -15,13 +15,12 @@
     }
   ],
   "icons": { "16": "icon16.png",
-           "48": "icon48.png",
-          "128": "icon128.png" },
- "content_scripts": [{
-    "css": ["style.css"],
-    "js": ["jq.js","content.js"],
-    "web_accessible_resources":["fonts/Vazir-Medium-FD-WOL-UI.woff2","fonts/Vazir-Medium-FD-WOL-UI.woff","fonts/Vazir-Medium-FD-WOL-UI.ttf"],
-    "matches": ["https://elearn4.ut.ac.ir/*","https://elearn5.ut.ac.ir/*","https://elearn6.ut.ac.ir/*","https://auth.ut.ac.ir:8443/*"]
-  }]
- 
+    "48": "icon48.png",
+    "128": "icon128.png" },
+    "content_scripts": [{
+      "css": ["style.css"],
+      "js": ["jq.js","content.js"],
+      "matches": ["https://elearn4.ut.ac.ir/*","https://elearn5.ut.ac.ir/*","https://elearn6.ut.ac.ir/*","https://auth.ut.ac.ir:8443/*"]
+      }]
+      
 }
