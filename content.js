@@ -21,3 +21,8 @@
 	$('.form-in-iframe').attr('style','border-radius:4px !important')
 	$('#login-form .btn').attr("value",'ورود به حساب کاربری')
 	$('.form-in-iframe .logo').attr('src',chrome.runtime.getURL("Assets/AuthLogo.png"))
+	$('.box.py-3.mdl-align .search-block .container h2').html('جستجو سریع میان درس ها')
+	$('.box.py-3.mdl-align #shortsearchbox').attr('placeholder','نام درس را وارد کنید...')
+	$('.coursesearchbox input[type=submit]').remove()
+	$('.coursesearchbox').append('<button type="submit"><i class="fa fa-search"></i></button>')
+	$('.enlight-frontpage .box.py-3.mdl-align').append('<div class="dut_links"><a href="/my">برو به میزکار</a></div>')

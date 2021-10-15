@@ -420,3 +420,69 @@ header[role=banner] {
     background: #eb5d5d !important;
     color: #fff !important;
 }
+.homepage-carousel {
+    display: none !important;
+}
+#page-content .bgtrans-overlay {
+    display: none !important;
+}
+.enlight-frontpage #page-content .box.py-3.mdl-align {
+    background: rgb(15, 27, 36) !important;
+    min-height: 500px !important;
+}
+.enlight-frontpage #page-content span#maincontent {
+    display: none !important;
+}
+.enlight-frontpage .box.py-3.mdl-align .search-block .container h2 {
+    font-size: 24px !important;
+}
+.enlight-frontpage .box.py-3.mdl-align .search-block .container h2:after {
+    display: none !important;
+    content: '' !important;
+}
+.enlight-frontpage #shortsearchbox {
+    height: 54px !important;
+    line-height: 54px !important;
+}
+.enlight-frontpage .box .search-block form#coursesearch {
+    border-radius: 10px !important;
+    height: 55px !important;
+    border:none !important;
+}
+.enlight-frontpage .coursesearchbox button {
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    color: #fff;
+    padding: 0 !important;
+    width: 40px;
+    height: 40px;
+    line-height: 39px;
+    border-radius: 10px;
+    background: #1177d1;
+    border: none !important;
+}
+.enlight-frontpage #region-bs-main-and-post .my-courses {
+    display: none !important;
+}
+.enlight-frontpage #region-bs-main-and-post #frontpage-course-list {
+    display: none !important;
+}
+*:focus, *:hover{
+    outline: 0 !important;
+}
+.dut_links a {
+    color: #fff !important;
+    background: #2cab2c;
+    display: block;
+    width: 259px;
+    margin: auto;
+    height: 46px;
+    border-radius: 4px !important;
+    line-height: 44px;
+    font-size: 17px;
+    border-bottom: 2px solid #0f4e0f;
+}
+.dut_links a:focus {
+    background:#2cab2c !important;   
+}
