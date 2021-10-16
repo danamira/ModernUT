@@ -26,3 +26,8 @@
 	$('.coursesearchbox input[type=submit]').remove()
 	$('.coursesearchbox').append('<button type="submit"><i class="fa fa-search"></i></button>')
 	$('.enlight-frontpage .box.py-3.mdl-align').append('<div class="dut_links"><a href="/my">برو به میزکار</a></div>')
+	chrome.storage.sync.get(['hideSlider'], function(result) {
+        if(!result.hideSlider) {
+			$('.homepage-carousel').attr('style','display:block !important')
+        }
+      });

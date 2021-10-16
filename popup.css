@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('chrome-extension://__MSG_@@extension_id__/fonts/Vazir-Medium-FD-WOL-UI.eot');
+    src: url('chrome-extension://__MSG_@@extension_id__/fonts/Vazir-Medium-FD-WOL-UI.eot?#iefix') format('embedded-opentype'),
+    url('chrome-extension://__MSG_@@extension_id__/fonts/Vazir-Medium-FD-WOL-UI.woff2') format('woff2'),
+    url('chrome-extension://__MSG_@@extension_id__/fonts/Vazir-Medium-FD-WOL-UI.woff') format('woff'),
+    url('chrome-extension://__MSG_@@extension_id__/fonts/Vazir-Medium-FD-WOL-UI.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    background: rgb(15, 27, 36);
+    width: 300px;
+    color:#fff;
+    font-family: Vazir;
+    /* height: 200px; */
+    padding-bottom: 10px;
+}
+h1 {
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1:after {
+    content: 'Beta';
+    background: crimson;
+    padding:3px 5px;
+    border-radius: 4px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.switch {
+    position: relative;
+    width: 50px;
+    height: 28px;
+    background: #fff;
+    border-radius: 20px;
+    padding:3px;
+    cursor: pointer;
+    margin: 10px auto;
+    transition: 0.3s;
+}
+.switch .toggle {
+    position: absolute;
+    right:3px;
+    left: auto;
+    background: #03c9ad;
+    border-radius: 50px;
+    width: 22px;
+    height: 22px;
+    transition: 0.2s;
+}
+.switch.off {
+    background: #e3e3e3 !important;
+}
+.switch.off .toggle {
+    background: #9d9d9d !important;
+    left: 3px !important;
+    right: auto !important;
+}
+p.caption {
+    cursor: default;
+    display: block;
+    text-align: center;
+    font-size: 13px;;
+}

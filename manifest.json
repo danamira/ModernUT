@@ -4,6 +4,12 @@
   "name": "ModernUT",
   "version": "0.1.0",
   "description": "Make UT look better by giving a it a taste of modern UI elements..",
+  "permissions": [
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
   "web_accessible_resources":[
     {
       "resources":["fonts/*"],
