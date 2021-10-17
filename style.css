@@ -486,7 +486,7 @@ header[role=banner] {
 .dut_links a:focus {
     background:#2cab2c !important;   
 }
-#meetingsummary #aconfldset3 h3{
+#meetingsummary h3{
     font-size: 18px;
     display: block;
     text-align: center;
