@@ -486,3 +486,53 @@ header[role=banner] {
 .dut_links a:focus {
     background:#2cab2c !important;   
 }
+#meetingsummary #aconfldset3 h3{
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#meetingsummary .aconrecording {
+    width: 100%;
+    border:none !important;
+    border-width: 0 !important;
+}
+#meetingsummary .aconrecording td{
+    padding:8px 8px;
+    line-height: 28px;
+    border:none !important
+}
+#meetingsummary .aconrecording tr:nth-child(odd){
+    background-color: #f3f3f3;
+}
+#meetingsummary .aconrecording tr:first-child {
+    background: #fff !important;
+    border-bottom: 2px solid #ededed
+}
+#meetingsummary .aconrecording tr td:first-child {
+    color: #364e9e;
+    font-weight: bold;
+    text-align: center;
+}
+#meetingsummary .aconrecording tr:first-child td:first-child {
+    color: #000 !important;
+    font-weight: 100;
+    text-align: center;
+}
+
+#meetingsummary .aconrecording td:last-child{
+    text-align: center;
+}
+
+#meetingsummary .aconrecording td:last-child a{
+    background: #5bc0de;
+    color: #fff !important;
+    display: block;
+    padding: 2px 17px;
+    margin: auto;
+    width: fit-content;
+    line-height: 26px;
+    border-radius: 4px;
+    font-size: 14px;
+    border-bottom: 2px solid #4e9fb7;
+}
