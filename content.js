@@ -1,7 +1,10 @@
+//Scripts below will be executed by the browser when the users visits one of the urls mentioned in manifest.json->content_scripts->matches array.
+	// Replacing the logo placed in header of http://elearn.ut.ac.ir with the one provided by the extension. The scripts are ordered in a way that brings the smoothest transition.
 	$('.logo img').remove()
 	$('.logo').html('<img class="logo" id="mutlogo" src="'+chrome.runtime.getURL("Assets/ElearnLogo.png")+'">')
 	$('.logo img').width(323)
-	$('.event,.event-item span .icon')
+
+	
 	$('#site-footer').hide()
 	$('#site-footer').after(`<footer class="dutfooter">
 	<div class="right">
