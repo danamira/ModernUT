@@ -35,3 +35,4 @@
 			$('.homepage-carousel').attr('style','display:block !important')
         }
       });
+	$('#meetingsummary .aconrecording td:last-child a').html('<i class="fa fa-play"></i>')

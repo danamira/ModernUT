@@ -528,11 +528,18 @@ header[role=banner] {
     background: #5bc0de;
     color: #fff !important;
     display: block;
-    padding: 2px 17px;
+    padding: 2px 14px;
     margin: auto;
     width: fit-content;
     line-height: 26px;
-    border-radius: 4px;
+    border-radius: 8px;
     font-size: 14px;
     border-bottom: 2px solid #4e9fb7;
+    /* padding-top: px; */
+}
+.block .block-cards .progress-bar {
+    background: #757575 !important;
+}
+#meetingsummary .aconrecording td:last-child a .fa {
+    font-size: 12px !important;
 }
