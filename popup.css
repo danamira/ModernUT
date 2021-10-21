@@ -18,7 +18,6 @@ body {
     color:#fff;
     font-family: Vazir;
     /* height: 200px; */
-    padding-bottom: 10px;
 }
 h1 {
     font-weight: bold;
@@ -71,4 +70,15 @@ p.caption {
     display: block;
     text-align: center;
     font-size: 13px;;
+}
+.dev {
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255,0.1);
+    margin-top: 10px;
+}
+.dev a {
+    color: #fff !important;
+    font-size: 20px;
+    padding: 0 10px;
 }

@@ -15,11 +15,6 @@
 	</p>
 	</div>
 	<div class="left">
-	<p>
-	پوسته ModernUT و  کار های دیگر را
-	<a href="https://twitter.com/danmirafzal"><i class="fa fa-twitter"></i>توییتر</i></a>
-	دنبال کنید.
-	</p>
 	</div>
 	</footer>`)
 	$('.form-in-iframe').attr('style','border-radius:4px !important')
