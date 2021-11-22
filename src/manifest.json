@@ -12,7 +12,7 @@
   },
   "web_accessible_resources":[
     {
-      "resources":["fonts/*"],
+      "resources":["Fonts/*"],
       "matches": ["https://elearn4.ut.ac.ir/*","https://elearn5.ut.ac.ir/*","https://elearn6.ut.ac.ir/*","https://auth.ut.ac.ir:8443/*"]
     },
     {
@@ -24,8 +24,8 @@
     "48": "icon48.png",
     "128": "icon128.png" },
     "content_scripts": [{
-      "css": ["style.css"],
-      "js": ["jq.js","content.js"],
+      "css": ["All.css"],
+      "js": ["App.js"],
       "matches": ["https://elearn4.ut.ac.ir/*","https://elearn5.ut.ac.ir/*","https://elearn6.ut.ac.ir/*","https://auth.ut.ac.ir:8443/*"]
       }]
       

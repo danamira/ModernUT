@@ -1,10 +1,8 @@
 @font-face {
     font-family: 'Vazir';
-    src: url('chrome-extension://__MSG_@@extension_id__/fonts/Vazir-Medium-FD-WOL-UI.eot');
-    src: url('chrome-extension://__MSG_@@extension_id__/fonts/Vazir-Medium-FD-WOL-UI.eot?#iefix') format('embedded-opentype'),
-    url('chrome-extension://__MSG_@@extension_id__/fonts/Vazir-Medium-FD-WOL-UI.woff2') format('woff2'),
-    url('chrome-extension://__MSG_@@extension_id__/fonts/Vazir-Medium-FD-WOL-UI.woff') format('woff'),
-    url('chrome-extension://__MSG_@@extension_id__/fonts/Vazir-Medium-FD-WOL-UI.ttf') format('truetype');
+    src: url('chrome-extension://__MSG_@@extension_id__/Fonts/Vazir-Medium-FD-WOL-UI.woff2') format('woff2'),
+    url('chrome-extension://__MSG_@@extension_id__/Fonts/Vazir-Medium-FD-WOL-UI.woff') format('woff'),
+    url('chrome-extension://__MSG_@@extension_id__/Fonts/Vazir-Medium-FD-WOL-UI.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -136,7 +134,6 @@ small.text-muted {
     margin-bottom: 10px;
     margin-top: 10px;
     border: 1px solid #ededed;
-}
 }
 .event-name-container .mb-0.pt-2 {
     margin-bottom: 7px !important;
