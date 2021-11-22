@@ -4,6 +4,16 @@
 </b>
 <h2>What is ModernUT?</h2>
 ModernUT is a chrome extension which applies a modern-looking theme and style to the websites of Univeristy Of Tehran.
+<h2>Quick installation</h2>
+<p>Follow the steps below to install the extension without building the source code from scratch.</p>
+<ol>
+    <li>Download the pre-built version of the extension by clicking <a href="https://github.com/devdana/ModernUT/releases/download/Builds/ModernUT-Beta.zip">Here</a>.</li>
+    <li>Extract the ZIP file in your computer.</li>
+    <li>Open Extensions settings in your Chrome-based browser.</li>
+	<li>Enable Developer Mode.</li>
+	<li>Select `Load unpacked` from the options available at top of the extesnions page.</li>
+	<li>Select the `dist` folder inside the direcotry which the source code you extracted earlier is located in.</li>
+</ol>
 <h2>How to build it?</h2>
 Before starting, make sure you have npm installed on your machine. This extension uses Laravel Mix and Webpack to bundle resources and compile the stylesheets.
 <ol>
@@ -13,7 +23,7 @@ Before starting, make sure you have npm installed on your machine. This extensio
     <li>Open Extensions settings in your Chrome-based browser.</li>
 	<li>Enable Developer Mode.</li>
 	<li>Select `Load unpacked` from the options available at top of the extesnions page.</li>
-	<li>Select the `dist` folder inside the direcotry which the source code you extracted earlier is located in.</li>
+	<li>Select the `dist` folder inside the direcotry which the source code you cloned/downloaded earlier is located in.</li>
 </ol>
 Extension works fine with most of the Chrome-based browsers such as Brave or Microsoft Edge.
 <h2>How to contribute?</h2>
